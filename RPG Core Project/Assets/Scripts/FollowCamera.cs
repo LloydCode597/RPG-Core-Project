@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class FollowCamera : MonoBehaviour
 {
-    [SerializeField] Transform target;
+    [SerializeField] Transform target = null;
+    [SerializeField] float cameraMoveSpeed = 5f;
 
-    void Update()
+    void LateUpdate()
     {
-        transform.position = target.position;
+        Vector3 smoothedPosition = Vector3.Lerp(transform.position, target.position, Time.deltaTime * cameraMoveSpeed);
+        transform.position = smoothedPosition;
     }
 }
