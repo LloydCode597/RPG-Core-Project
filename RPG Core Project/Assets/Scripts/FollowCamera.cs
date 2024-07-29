@@ -2,14 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowCamera : MonoBehaviour
+namespace RPG.Core
 {
-    [SerializeField] Transform target = null;
-    [SerializeField] float cameraMoveSpeed = 5f;
-
-    void LateUpdate()
+    public class FollowCamera : MonoBehaviour
     {
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, target.position, Time.deltaTime * cameraMoveSpeed);
-        transform.position = smoothedPosition;
+        [SerializeField] Transform target = null;
+        [SerializeField] float cameraMoveSpeed = 5f;
+
+        void LateUpdate()
+        {
+            Vector3 smoothedPosition = Vector3.Lerp(transform.position, target.position, Time.deltaTime * cameraMoveSpeed);
+            transform.position = smoothedPosition;
+        }
     }
 }
