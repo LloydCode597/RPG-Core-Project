@@ -42,6 +42,7 @@ namespace RPG.Combat
 
         void Hit()
         {
+            if (target == null) return;
             Health healthComponent = target.GetComponent<Health>();
             healthComponent.TakeDamage(weaponDamage);
         }
