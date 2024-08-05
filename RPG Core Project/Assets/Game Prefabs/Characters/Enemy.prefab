@@ -10,31 +10,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4226224461000186428, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -15.56476
       objectReference: {fileID: 0}
     - target: {fileID: 4226224461000186428, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 12.193905
       objectReference: {fileID: 0}
     - target: {fileID: 4226224461000186428, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 19.356316
       objectReference: {fileID: 0}
     - target: {fileID: 4226224461000186428, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.07171145
       objectReference: {fileID: 0}
     - target: {fileID: 4226224461000186428, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4226224461000186428, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.99742544
       objectReference: {fileID: 0}
     - target: {fileID: 4226224461000186428, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4226224461000186428, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -42,7 +42,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4226224461000186428, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 188.225
       objectReference: {fileID: 0}
     - target: {fileID: 4226224461000186428, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb03f1ba8608b4c409a70c35facc5ab4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  healthPoints: 10
 --- !u!136 &-2915219612262221174
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -127,7 +127,7 @@ CapsuleCollider:
   m_Radius: 0.5000001
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.000000059604645, y: 1, z: -0.00000008940697}
 --- !u!1001 &3562747079581502742
 PrefabInstance:
   m_ObjectHideFlags: 0
