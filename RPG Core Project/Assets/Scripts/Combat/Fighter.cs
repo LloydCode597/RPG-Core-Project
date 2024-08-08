@@ -19,6 +19,7 @@ namespace RPG.Combat
             timeSinceLastAttack += Time.deltaTime;
 
             if (target == null) return;
+            if (target.IsDead()) return;
 
             if (!GetIsInRange())
             {
@@ -35,6 +36,7 @@ namespace RPG.Combat
         {
             if (timeSinceLastAttack > timeBetweenAttacks)
             {
+                // This will trigger the Hit() event. 
                 GetComponent<Animator>().SetTrigger("attack");
                 timeSinceLastAttack = 0;
             }
@@ -59,6 +61,7 @@ namespace RPG.Combat
         public void Cancel()
         {
             GetComponent<Animator>().SetTrigger("stopAttack");
+            GetComponent<Animator>().ResetTrigger("attack");
             target = null;
         }
     }
