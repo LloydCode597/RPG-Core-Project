@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4298286163371512514, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3f6fc0cf5e5d31c458bc74ede87cb8ae, type: 2}
     - target: {fileID: 5430638262245260787, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
       propertyPath: m_Name
       value: Player
@@ -92,4 +96,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb03f1ba8608b4c409a70c35facc5ab4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  healthPoints: 100
