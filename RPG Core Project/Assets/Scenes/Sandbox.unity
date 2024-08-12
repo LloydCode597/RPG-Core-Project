@@ -768,6 +768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 646719771584426903, guid: 701d8fd53819db541aa07d5e975569d6, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8719686103109243992, guid: 701d8fd53819db541aa07d5e975569d6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.08
@@ -1607,6 +1611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1721028348}
   - component: {fileID: 1721028347}
+  - component: {fileID: 1721028349}
   m_Layer: 0
   m_Name: Follow Camera
   m_TagString: Untagged
@@ -1669,6 +1674,20 @@ Transform:
   - {fileID: 1384426618}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 30.652, y: 173.192, z: -1.357}
+--- !u!114 &1721028349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721028346}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21b262c1698604e468836e7844795e1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1313807113}
+  cameraMoveSpeed: 5
 --- !u!1001 &1848592861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1850,10 +1869,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 705507995}
+  - {fileID: 816479494}
   - {fileID: 1139898971}
   - {fileID: 1414584278}
   - {fileID: 1721028348}
-  - {fileID: 816479494}
   - {fileID: 968121611}
   - {fileID: 457599505}
   - {fileID: 465994377}
