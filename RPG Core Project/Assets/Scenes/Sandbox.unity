@@ -991,6 +991,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -1.05
       objectReference: {fileID: 0}
+    - target: {fileID: 6248741167449005362, guid: 22809df155eb70647ac6e475bcfb1979, type: 3}
+      propertyPath: chaseDistance
+      value: 3.57
+      objectReference: {fileID: 0}
     - target: {fileID: 8044121300619428833, guid: 22809df155eb70647ac6e475bcfb1979, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
