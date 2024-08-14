@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using RPG.Movement;
+using RPG.Core;
 using System;
 using RPG.Combat;
 
@@ -9,9 +10,15 @@ namespace RPG.Control
 {
     public class PlayController : MonoBehaviour
     {
-        // Start is called before the first frame update
+        Health health;
+
+        private void Start()
+        {
+            health = GetComponent<Health>();
+        }
         private void Update()
         {
+            if (health.IsDead()) return;
             if (InteractWithCombat()) return;
             if (InteractWithMovement()) return;
         }
