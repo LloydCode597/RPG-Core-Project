@@ -11,6 +11,8 @@ namespace RPG.Control
     public class PlayController : MonoBehaviour
     {
         Health health;
+        [SerializeField] LayerMask movementLayerMask;  // Layer mask for ground movement
+
 
         private void Start()
         {
@@ -48,7 +50,9 @@ namespace RPG.Control
         private bool InteractWithMovement()
         {
             RaycastHit hit;
-            bool hasHit = Physics.Raycast(GetMouseRay(), out hit);
+            // Use a raycast that only hits the ground (movementLayerMask)
+            bool hasHit = Physics.Raycast(GetMouseRay(), out hit, Mathf.Infinity, movementLayerMask);
+            Debug.DrawRay(GetMouseRay().origin, GetMouseRay().direction * 100, Color.red, 1f);
             if (hasHit)
             {
                 if (Input.GetMouseButton(0))
