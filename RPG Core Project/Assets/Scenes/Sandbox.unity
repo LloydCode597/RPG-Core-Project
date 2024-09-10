@@ -1156,17 +1156,21 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2890801242966981986, guid: 701d8fd53819db541aa07d5e975569d6, type: 3}
+      propertyPath: m_BaseOffset
+      value: -0.22
+      objectReference: {fileID: 0}
     - target: {fileID: 8719686103109243992, guid: 701d8fd53819db541aa07d5e975569d6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30.8
       objectReference: {fileID: 0}
     - target: {fileID: 8719686103109243992, guid: 701d8fd53819db541aa07d5e975569d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.3699999
+      value: -1.95
       objectReference: {fileID: 0}
     - target: {fileID: 8719686103109243992, guid: 701d8fd53819db541aa07d5e975569d6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -88.5
+      value: -90.076
       objectReference: {fileID: 0}
     - target: {fileID: 8719686103109243992, guid: 701d8fd53819db541aa07d5e975569d6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1968,12 +1972,12 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 10
+  m_CameraDistance: 22
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.8
+  m_SoftZoneWidth: 0.82
   m_SoftZoneHeight: 0.8
   m_BiasX: 0
   m_BiasY: 0
@@ -2074,7 +2078,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 21.715565
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -2089,7 +2093,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 57.85
+  field of view: 40.22
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -2116,7 +2120,7 @@ Transform:
   m_GameObject: {fileID: 1414584274}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2644471, y: -0.013112173, z: -0.006967943, w: 0.9642859}
-  m_LocalPosition: {x: -30.51027, y: 3.7282243, z: -97.097916}
+  m_LocalPosition: {x: -30.162598, y: 9.266095, z: -108.99141}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2341,7 +2345,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 1313807113}
   m_Lens:
-    FieldOfView: 57.85
+    FieldOfView: 40.22
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -2368,7 +2372,7 @@ Transform:
   m_GameObject: {fileID: 1721028346}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2644471, y: -0.013112173, z: -0.006967943, w: 0.9642859}
-  m_LocalPosition: {x: -30.51027, y: 3.7282243, z: -97.097916}
+  m_LocalPosition: {x: -30.162598, y: 9.266095, z: -108.99141}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2402,7 +2406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   virtualCamera: {fileID: 1721028347}
-  rotationSpeed: 100
+  rotationSpeed: 200
   playerTransform: {fileID: 1313807113}
 --- !u!4 &1797515267 stripped
 Transform:
