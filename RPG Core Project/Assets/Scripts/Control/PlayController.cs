@@ -52,7 +52,10 @@ namespace RPG.Control
             RaycastHit hit;
             // Use a raycast that only hits the ground (movementLayerMask)
             bool hasHit = Physics.Raycast(GetMouseRay(), out hit, Mathf.Infinity, movementLayerMask);
-            Debug.DrawRay(GetMouseRay().origin, GetMouseRay().direction * 100, Color.red, 1f);
+
+            // Drawing the debug ray based on the raycasting from the camera
+            Ray mouseRay = GetMouseRay();
+            Debug.DrawRay(mouseRay.origin, mouseRay.direction * 100, Color.red, 1f);
             if (hasHit)
             {
                 if (Input.GetMouseButton(0))
