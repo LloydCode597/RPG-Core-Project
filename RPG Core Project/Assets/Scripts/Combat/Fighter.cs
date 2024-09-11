@@ -23,7 +23,7 @@ namespace RPG.Combat
 
             if (!GetIsInRange())
             {
-                GetComponent<Mover>().MoveTo(target.transform.position); // Ensure the NPC moves towards the target
+                GetComponent<Mover>().MoveTo(target.transform.position, 1f); // Ensure the NPC moves towards the target
             }
             else
             {
