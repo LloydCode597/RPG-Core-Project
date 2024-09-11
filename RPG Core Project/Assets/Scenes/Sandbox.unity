@@ -1142,7 +1142,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -7870681873438674478, guid: 701d8fd53819db541aa07d5e975569d6, type: 3}
       propertyPath: healthPoints
-      value: 100
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -6757776838707349605, guid: 701d8fd53819db541aa07d5e975569d6, type: 3}
       propertyPath: movementLayerMask.m_Bits
@@ -1155,6 +1155,10 @@ PrefabInstance:
     - target: {fileID: 646719771584426903, guid: 701d8fd53819db541aa07d5e975569d6, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 655702102756604173, guid: 701d8fd53819db541aa07d5e975569d6, type: 3}
+      propertyPath: weaponDamage
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2890801242966981986, guid: 701d8fd53819db541aa07d5e975569d6, type: 3}
       propertyPath: m_BaseOffset
@@ -1506,6 +1510,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2031665020}
     m_Modifications:
+    - target: {fileID: -2396097721728073506, guid: 22809df155eb70647ac6e475bcfb1979, type: 3}
+      propertyPath: healthPoints
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2186891035872683054, guid: 22809df155eb70647ac6e475bcfb1979, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.1
@@ -1563,8 +1571,16 @@ PrefabInstance:
       value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6248741167449005362, guid: 22809df155eb70647ac6e475bcfb1979, type: 3}
+      propertyPath: patrolPath
+      value: 
+      objectReference: {fileID: 9125752801198965249}
+    - target: {fileID: 6248741167449005362, guid: 22809df155eb70647ac6e475bcfb1979, type: 3}
       propertyPath: chaseDistance
       value: 3.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 7945031534419462523, guid: 22809df155eb70647ac6e475bcfb1979, type: 3}
+      propertyPath: weaponDamage
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8044121300619428833, guid: 22809df155eb70647ac6e475bcfb1979, type: 3}
       propertyPath: m_Name
@@ -2624,7 +2640,7 @@ Transform:
   m_GameObject: {fileID: 1055921114874008399}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.132584, y: -9.469228, z: -5.5441227}
+  m_LocalPosition: {x: -24.132584, y: -9.469228, z: 3.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
