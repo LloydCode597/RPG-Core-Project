@@ -22,7 +22,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 4.866667
+        time: 15.833333
         value: 0
         inSlope: 0
         outSlope: 0
@@ -31,7 +31,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 7.016667
+        time: 20.216667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -70,7 +70,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 7.016667
+    m_StopTime: 20.216667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -91,7 +91,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 4.866667
+        time: 15.833333
         value: 0
         inSlope: 0
         outSlope: 0
@@ -100,7 +100,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 7.016667
+        time: 20.216667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -174,16 +174,16 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 1.5166666666666666
+    m_Start: 3.0166666666666666
     m_ClipIn: 0
     m_Asset: {fileID: -5651429707611321080}
-    m_Duration: 1.3333333333333348
+    m_Duration: 4.333333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2793798499202839127}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.38333333333333286
-    m_BlendOutDuration: 0.08333333333333481
+    m_BlendInDuration: 1.333333333333333
+    m_BlendOutDuration: 1.5
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -243,16 +243,16 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: CM Reveal1
   - m_Version: 1
-    m_Start: 2.7666666666666666
+    m_Start: 5.85
     m_ClipIn: 0
     m_Asset: {fileID: 517612379310784359}
-    m_Duration: 1.1
+    m_Duration: 5.633333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2793798499202839127}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.08333333333333481
-    m_BlendOutDuration: 0.2666666666666666
+    m_BlendInDuration: 1.5
+    m_BlendOutDuration: 2.083333333333332
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -315,13 +315,13 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -6869773969013035429}
-    m_Duration: 1.1833333333333333
+    m_Duration: 1.8166666666666667
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2793798499202839127}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 0.41666666666666663
+    m_BlendOutDuration: 1.2999999999999998
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -381,67 +381,16 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Follow Camera
   - m_Version: 1
-    m_Start: 3.6
-    m_ClipIn: 0
-    m_Asset: {fileID: 4703856885234798560}
-    m_Duration: 1.2499999999999996
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -2793798499202839127}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0.2666666666666666
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: CM Reveal3
-  - m_Version: 1
-    m_Start: 0.7666666666666667
+    m_Start: 0.5166666666666667
     m_ClipIn: 0
     m_Asset: {fileID: 208236849761358755}
-    m_Duration: 1.1333333333333329
+    m_Duration: 3.833333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2793798499202839127}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.41666666666666663
-    m_BlendOutDuration: 0.38333333333333286
+    m_BlendInDuration: 1.2999999999999998
+    m_BlendOutDuration: 1.333333333333333
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -501,19 +450,37 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: CM Reveal4
   - m_Version: 1
-    m_Start: 4.85
+    m_Start: 14.183333333333334
     m_ClipIn: 0
     m_Asset: {fileID: 98263090476324614}
-    m_Duration: 2.1833333333333336
+    m_Duration: 6.083333333333335
     m_TimeScale: 1
     m_ParentTrack: {fileID: -2793798499202839127}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
+    m_BlendInDuration: 1.666666666666666
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -551,6 +518,75 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: CM Dolly1
+  - m_Version: 1
+    m_Start: 9.4
+    m_ClipIn: 0
+    m_Asset: {fileID: 4703856885234798560}
+    m_Duration: 6.449999999999999
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -2793798499202839127}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 2.083333333333332
+    m_BlendOutDuration: 1.666666666666666
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: CM Reveal3
   m_Markers:
     m_Objects: []
 --- !u!114 &11400000
@@ -567,7 +603,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
-  - {fileID: 854126913338824591}
   - {fileID: -2793798499202839127}
   - {fileID: 1650231335810567058}
   m_FixedDuration: 0
@@ -624,98 +659,6 @@ MonoBehaviour:
   VirtualCamera:
     exposedName: 480ef8008aeda6a4a82ba5586332726b
     defaultValue: {fileID: 0}
---- !u!114 &854126913338824591
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15e0374501f39d54eb30235764636e0e, type: 3}
-  m_Name: Control Track
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_AnimClip: {fileID: 0}
-  m_Locked: 0
-  m_Muted: 0
-  m_CustomPlayableFullTypename: 
-  m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
-  m_Children: []
-  m_Clips:
-  - m_Version: 1
-    m_Start: 0
-    m_ClipIn: 0
-    m_Asset: {fileID: 8844743036718040819}
-    m_Duration: 4.116666666666665
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 854126913338824591}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 0
-    m_BlendOutDuration: 0
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Intro Sequence
-  m_Markers:
-    m_Objects: []
 --- !u!114 &1650231335810567058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -773,26 +716,3 @@ MonoBehaviour:
   VirtualCamera:
     exposedName: 1e8716514ad9c4c4a9dca4ed99c26e5a
     defaultValue: {fileID: 0}
---- !u!114 &8844743036718040819
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48853ae485fa386428341ac1ea122570, type: 3}
-  m_Name: ControlPlayableAsset
-  m_EditorClassIdentifier: 
-  sourceGameObject:
-    exposedName: 0a1c5fa77dce94e4193a5e0175b5eb75
-    defaultValue: {fileID: 0}
-  prefabGameObject: {fileID: 0}
-  updateParticle: 1
-  particleRandomSeed: 1554
-  updateDirector: 0
-  updateITimeControl: 1
-  searchHierarchy: 0
-  active: 0
-  postPlayback: 2
