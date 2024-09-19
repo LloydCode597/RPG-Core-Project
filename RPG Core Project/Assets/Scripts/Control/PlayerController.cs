@@ -8,7 +8,7 @@ using RPG.Combat;
 
 namespace RPG.Control
 {
-    public class PlayController : MonoBehaviour
+    public class PlayerController : MonoBehaviour
     {
         Health health;
         [SerializeField] LayerMask movementLayerMask;  // Layer mask for ground movement
