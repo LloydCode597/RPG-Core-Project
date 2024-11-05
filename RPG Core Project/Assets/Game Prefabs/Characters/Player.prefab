@@ -60,6 +60,14 @@ PrefabInstance:
       propertyPath: weaponDamage
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5385629057814607721, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
+      propertyPath: weaponPrefab
+      value: 
+      objectReference: {fileID: 5803750852318312742, guid: e3ca1b64792ff434da402023799dc4b1, type: 3}
+    - target: {fileID: 5385629057814607721, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
+      propertyPath: handTransform
+      value: 
+      objectReference: {fileID: 8647624801632744124}
     - target: {fileID: 5430638262245260787, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
       propertyPath: m_Name
       value: Player
@@ -146,3 +154,8 @@ CapsuleCollider:
   m_Height: 2.09
   m_Direction: 1
   m_Center: {x: 0, y: 0.84, z: 0}
+--- !u!4 &8647624801632744124 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4298286163366149336, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
+  m_PrefabInstance: {fileID: 4874052095655218788}
+  m_PrefabAsset: {fileID: 0}
