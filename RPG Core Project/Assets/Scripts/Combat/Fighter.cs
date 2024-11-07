@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using RPG.Movement;
 using RPG.Core;
+using System;
 
 namespace RPG.Combat
 {
@@ -40,9 +41,10 @@ namespace RPG.Combat
         }
         private void SpawnWeapon()
         {
-            if (weaponPrefab != null)
+            if (weaponPrefab != null && handTransform != null)
             {
-                Instantiate(weaponPrefab, handTransform);
+                GameObject weaponInstance = Instantiate(weaponPrefab, handTransform.position, handTransform.rotation);
+                weaponInstance.transform.SetParent(handTransform);
             }
         }
         private void AttackBehaviour()

@@ -42,10 +42,19 @@ namespace RPG.Core
         public void RestoreState(object state)
         {
             healthPoints = (float)state;
-            if (healthPoints == 0)
+
+            // Check if the enemy should be "alive" or "dead" based on restored health points
+            if (healthPoints <= 0)
             {
                 Die();
             }
+            // else
+            // {
+            //     // Reset `isDead` to false if the enemy is restored with health
+            //     isDead = false;
+            //     GetComponent<Animator>().ResetTrigger("die");
+            //     GetComponent<Animator>().Play("Idle"); // Adjust to the appropriate idle or starting animation
+            // }
         }
     }
 }
