@@ -41,13 +41,9 @@ namespace RPG.Combat
         }
         private void SpawnWeapon()
         {
-            if (weaponPrefab != null && handTransform != null)
-            {
-                GameObject weaponInstance = Instantiate(weaponPrefab, handTransform.position, handTransform.rotation);
-                weaponInstance.transform.SetParent(handTransform);
-                Animator animator = GetComponent<Animator>();
-                animator.runtimeAnimatorController = weaponOverride;
-            }
+            if (weapon == null) return;
+            Animator animator = GetComponent<Animator>();
+            weapon.Spawn(handTransform, animator);
         }
         private void AttackBehaviour()
         {
