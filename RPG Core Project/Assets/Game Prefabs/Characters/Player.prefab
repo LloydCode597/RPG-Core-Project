@@ -76,6 +76,14 @@ PrefabInstance:
       propertyPath: weaponOverride
       value: 
       objectReference: {fileID: 22100000, guid: afc1efe11cc13734d912cfa92bd607d1, type: 2}
+    - target: {fileID: 5385629057814607721, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 8647624801632670420}
+    - target: {fileID: 5385629057814607721, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 8647624801632744124}
     - target: {fileID: 5430638262245260787, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
       propertyPath: m_Name
       value: Player
@@ -162,6 +170,11 @@ CapsuleCollider:
   m_Height: 2.09
   m_Direction: 1
   m_Center: {x: 0, y: 0.84, z: 0}
+--- !u!4 &8647624801632670420 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4298286163366206640, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
+  m_PrefabInstance: {fileID: 4874052095655218788}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8647624801632744124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4298286163366149336, guid: 5209adc3c42de5841aba3d652a294e6d, type: 3}
