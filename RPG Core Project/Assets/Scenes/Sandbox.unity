@@ -1219,6 +1219,10 @@ PrefabInstance:
       propertyPath: waypointTolerance
       value: 2.2
       objectReference: {fileID: 0}
+    - target: {fileID: 7945031534419462523, guid: 22809df155eb70647ac6e475bcfb1979, type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: d9a524eb0df267d428376f5e84abe3c3, type: 2}
     - target: {fileID: 8044121300619428833, guid: 22809df155eb70647ac6e475bcfb1979, type: 3}
       propertyPath: m_Name
       value: Enemy (3)
