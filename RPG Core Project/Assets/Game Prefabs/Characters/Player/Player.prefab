@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb03f1ba8608b4c409a70c35facc5ab4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoints: 30
+  healthPoints: 900
 --- !u!136 &4972833396434649372
 CapsuleCollider:
   m_ObjectHideFlags: 0
