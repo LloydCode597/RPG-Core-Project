@@ -76,6 +76,10 @@ PrefabInstance:
       propertyPath: isHoming
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5899722891234759933, guid: 30b812b33cf39ad47b8c748abecb5265, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 5953562222115835876, guid: 34a0758edc8f76941ba8fbd412f84308, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
