@@ -8,7 +8,9 @@ public class Projectile : MonoBehaviour
     [SerializeField] float speed = 1;
     [SerializeField] bool isHoming = true;
     [SerializeField] GameObject hitEffect = null;
-
+    [SerializeField] float maxLifeTime = 10;
+    [SerializeField] GameObject[] destroyOnHit = null;
+    [SerializeField] float lifeAfterImpact = 2;
     Health target = null;
     float damage = 0;
     private void Start()
@@ -33,6 +35,7 @@ public class Projectile : MonoBehaviour
     {
         this.target = target;
         this.damage = damage;
+        Destroy(gameObject, maxLifeTime);
     }
 
 
@@ -51,11 +54,15 @@ public class Projectile : MonoBehaviour
         if (other.GetComponent<Health>() != target) return;
         if (target.IsDead()) return;
         target.TakeDamage(damage);
-        if(hitEffect != null)
+        if (hitEffect != null)
         {
             Instantiate(hitEffect, GetAimLocation(), transform.rotation);
         }
-        Destroy(gameObject);
+        foreach (GameObject toDestroy in destroyOnHit)
+        {
+            Destroy(toDestroy);
+        }
+        Destroy(gameObject, lifeAfterImpact);
     }
 
 
