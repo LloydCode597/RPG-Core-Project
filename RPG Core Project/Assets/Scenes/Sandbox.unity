@@ -666,67 +666,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 416864, guid: d66c89601ce96d4419ce36a4dce3c401, type: 3}
   m_PrefabInstance: {fileID: 232756848}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &234289586
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2302457091073498935, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2302457091092795123, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 111.19694
-      objectReference: {fileID: 0}
-    - target: {fileID: 2302457091092795123, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 2302457091092795123, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 45.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 2302457091092795123, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2302457091092795123, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2302457091092795123, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2302457091092795123, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2302457091092795123, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2302457091092795123, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2302457091092795123, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2302457091093092515, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
-      propertyPath: m_Name
-      value: Fireball Impact
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 69d1b1037536b504884c93bb73d662db, type: 3}
 --- !u!1 &261563366
 GameObject:
   m_ObjectHideFlags: 0
@@ -5656,6 +5595,10 @@ PrefabInstance:
       propertyPath: defaultWeapon
       value: 
       objectReference: {fileID: 11400000, guid: 66cd1bf367333364f87f5b12e703dc6a, type: 2}
+    - target: {fileID: 5639223891046215269, guid: a2fe680ba84645141873371542771866, type: 3}
+      propertyPath: defaultWeaponName
+      value: Sword
+      objectReference: {fileID: 0}
     - target: {fileID: 6169563563446298298, guid: a2fe680ba84645141873371542771866, type: 3}
       propertyPath: healthPoints
       value: 900
@@ -5754,4 +5697,3 @@ SceneRoots:
   - {fileID: 988495191}
   - {fileID: 261563369}
   - {fileID: 602122209}
-  - {fileID: 234289586}
