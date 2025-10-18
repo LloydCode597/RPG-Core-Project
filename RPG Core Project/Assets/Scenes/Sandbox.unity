@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.46622682, g: 0.56011325, b: 0.60743, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -365,6 +361,7 @@ Terrain:
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
+  m_HeightmapMinimumLODSimplification: 0
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
@@ -2423,6 +2420,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2444,6 +2446,7 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -3785,10 +3788,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1353655143}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -4106,7 +4109,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 18.06, y: -29.6, z: 0.19}
 --- !u!95 &1571643879
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4120,6 +4123,7 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -5664,6 +5668,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -98.38313
       objectReference: {fileID: 0}
+    - target: {fileID: 2307441209690233426, guid: a2fe680ba84645141873371542771866, type: 3}
+      propertyPath: m_Intensity
+      value: 1.67
+      objectReference: {fileID: 0}
     - target: {fileID: 4492768996449354544, guid: a2fe680ba84645141873371542771866, type: 3}
       propertyPath: m_LocalPosition.x
       value: -47.2
@@ -5715,6 +5723,22 @@ PrefabInstance:
     - target: {fileID: 7621648605307050031, guid: a2fe680ba84645141873371542771866, type: 3}
       propertyPath: m_LocalPosition.z
       value: -98.38313
+      objectReference: {fileID: 0}
+    - target: {fileID: 7621648605307050031, guid: a2fe680ba84645141873371542771866, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7892095
+      objectReference: {fileID: 0}
+    - target: {fileID: 7621648605307050031, guid: a2fe680ba84645141873371542771866, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.12607852
+      objectReference: {fileID: 0}
+    - target: {fileID: 7621648605307050031, guid: a2fe680ba84645141873371542771866, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.5943524
+      objectReference: {fileID: 0}
+    - target: {fileID: 7621648605307050031, guid: a2fe680ba84645141873371542771866, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.089430764
       objectReference: {fileID: 0}
     - target: {fileID: 8538743960065470673, guid: a2fe680ba84645141873371542771866, type: 3}
       propertyPath: m_Name
